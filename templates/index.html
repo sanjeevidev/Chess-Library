@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Render Iframes</title>
+    <style>
+        .iframe-container {
+            margin-top: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Enter an iframe:</h2>
+    <textarea id="iframeInput" rows="5" cols="50" placeholder="Paste iframe code here..."></textarea><br><br>
+    <button onclick="renderIframe()">Add Iframe</button>
+
+    <div class="iframe-container" id="iframeContainer"></div>
+
+    <script>
+        function renderIframe() {
+            const iframeInput = document.getElementById('iframeInput').value;
+            const iframeContainer = document.getElementById('iframeContainer');
+
+            // Create a wrapper div for the iframe
+            const div = document.createElement('div');
+
+            // Set the div's innerHTML to the iframe code entered
+            div.innerHTML = iframeInput;
+
+            // Append the new iframe to the iframeContainer
+            iframeContainer.appendChild(div);
+
+            // Clear the input box
+            document.getElementById('iframeInput').value = '';
+        }
+    </script>
+
+</body>
+</html>
