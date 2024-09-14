@@ -14,3 +14,8 @@
 ``` md
 <iframe id="12168227" allowtransparency="true" frameborder="0" style="width:100%;height:100%;border:none;" src="//www.chess.com/emboard?id=12168227"></iframe><script>window.addEventListener("message",(e)=>{const{data}=e;if(data?.id==="12168227"){constelement=document.getElementById(data.id);if(element){element.style.height=`${data.frameHeight+37}px`;}}});</script>
 ```
+
+> Mikhail Tal vs Vladimir Akopian
+``` md
+<iframe id="12179355" allowtransparency="true" frameborder="0" style="width:100%;height:100%;border:none;" src="//www.chess.com/emboard?id=12179355"></iframe><script>window.addEventListener("message",(e)=>{const{data}=e;if(data?.id==="12179355"){constelement=document.getElementById(data.id);if(element){element.style.height=`${data.frameHeight+37}px`;}}});</script>
+```
