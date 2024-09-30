@@ -69,3 +69,8 @@
 ``` md
 <iframe id="12231987" allowtransparency="true" frameborder="0" style="width:100%;height:100%;border:none;" src="//www.chess.com/emboard?id=12231987"></iframe><script>window.addEventListener("message",e=>{e['data']&&"12231987"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+37}px`)});</script>
 ```
+
+> guru-mos vs sanjeevi2004
+``` md
+<iframe id="12235321" allowtransparency="true" frameborder="0" style="width:100%;height:100%;border:none;" src="//www.chess.com/emboard?id=12235321"></iframe><script>window.addEventListener("message",e=>{e['data']&&"12235321"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+37}px`)});</script>
+```
