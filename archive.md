@@ -2,7 +2,7 @@
 
 > A M Harvey vs Emanuel Lasker
 ``` md
-> <iframe id="12158689" allowtransparency="true" frameborder="0" style="width:100%;height:100%;border:none;" src="//www.chess.com/emboard?id=12158689"></iframe><script>window.addEventListener("message",(e)=>{const{data}=e;if(data?.id==="12158689"){constelement=document.getElementById(data.id);if(element){element.style.height=`${data.frameHeight+37}px`;}}});</script>
+<iframe id="12158689" allowtransparency="true" frameborder="0" style="width:100%;height:100%;border:none;" src="//www.chess.com/emboard?id=12158689"></iframe><script>window.addEventListener("message",(e)=>{const{data}=e;if(data?.id==="12158689"){constelement=document.getElementById(data.id);if(element){element.style.height=`${data.frameHeight+37}px`;}}});</script>
 ```
 
 > Ramses_Tenerife vs sanjeevi2004
@@ -73,4 +73,9 @@
 > guru-mos vs sanjeevi2004
 ``` md
 <iframe id="12235321" allowtransparency="true" frameborder="0" style="width:100%;height:100%;border:none;" src="//www.chess.com/emboard?id=12235321"></iframe><script>window.addEventListener("message",e=>{e['data']&&"12235321"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+37}px`)});</script>
+```
+
+> sanjeevi2004 vs deeeznutters
+``` md
+<iframe id="12239047" allowtransparency="true" frameborder="0" style="width:100%;height:100%;border:none;" src="//www.chess.com/emboard?id=12239047"></iframe><script>window.addEventListener("message",e=>{e['data']&&"12239047"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+37}px`)});</script>
 ```
